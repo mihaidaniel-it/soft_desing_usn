@@ -4,4 +4,5 @@
     <Project Path="lab01/NewConsoleProject/NewConsoleProject.csproj" />
   </Folder>
   <Project Path="lab02/lab02.csproj" />
+  <Project Path="lab04/lab04.csproj" />
 </Solution>
