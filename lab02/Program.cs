@@ -1,13 +1,7 @@
-// Лабораторная работа 2. Понимание базового проекта.
-// Задание 1 (компиляция, bin/obj, выполнимый файл) описано в README.md.
-
-// --- Задание 2.1 ---
-Console.WriteLine("--- 2.1 ---");
+Console.WriteLine(" Задание 2.1");
 Console.WriteLine("Hello, Jerry");
 
-// --- Задание 2.2 ---
-// Функция печатает A, B, C; выполняем ее 3 раза с задержкой 0.5 с после каждого выполнения.
-Console.WriteLine("--- 2.2 ---");
+Console.WriteLine("Задание 2.2Э");
 PrintABC();
 Thread.Sleep(500);
 PrintABC();
@@ -15,22 +9,15 @@ Thread.Sleep(500);
 PrintABC();
 Thread.Sleep(500);
 
-// --- Задание 2.3 ---
-// A вызывает B и C; A вызываем несколько раз.
-Console.WriteLine("--- 2.3 ---");
+Console.WriteLine("Задание 2.3");
 A();
 A();
 A();
 
-// --- Задание 2.4 ---
-// NeverCalled определена ниже, но нигде не вызывается,
-// поэтому ее текст в консоль не попадет.
-Console.WriteLine("--- 2.4 ---");
+Console.WriteLine("Задание 2.4");
 Console.WriteLine("NeverCalled не вызвана, ее строка не напечаталась.");
 
-// --- Задание 2.5 ---
-// DefinedFirst определена раньше DefinedLater, но вызывает ее.
-Console.WriteLine("--- 2.5 ---");
+Console.WriteLine("Задание 2.5");
 DefinedFirst();
 
 
